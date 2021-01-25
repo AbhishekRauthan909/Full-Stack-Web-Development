@@ -1,0 +1,30 @@
+.back
+{
+	background-color:#BFBFBF; 
+	font-color:blue;
+	width:100%;
+	line-height: 2;
+}
+
+table
+{
+	width:100%;
+	border-spacing: 1px;
+	border-collapse: collapse;
+	border-bottom: 1pt solid;
+	border-top: 1pt solid;
+}
+.abc
+{
+	text-align:left; 
+}
+.div1
+{
+	margin: 1px;
+}
+.li1
+{
+	margin-top: -5px;
+	margin-left: 10px;
+	padding-left:8px; 
+}

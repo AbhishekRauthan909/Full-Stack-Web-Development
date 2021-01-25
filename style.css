@@ -1,0 +1,61 @@
+html
+{
+	font-size: 20px;
+}
+table
+{
+	border-collapse: collapse;
+}
+.abc
+{
+	border: 1px solid black;
+	width: 50%;
+}
+
+#td1
+{
+	text-align: center;
+	color: #FC3004;
+	font-weight: bold;
+	border-bottom: 1px dotted black;
+}
+
+.brd
+{
+	border-bottom: 1px dotted black;
+	text-align: center;
+}
+
+.rightbrd
+{
+	border-right: 1px dotted black;
+	text-align: center;
+}
+.check
+{
+	color: #041EFC;
+}
+
+#a
+{
+	text-decoration: underline;
+	display: inline;
+}
+.chc
+{
+	color: #041EFC;
+	font-weight: bold;
+}
+.clr
+{
+	background-color: #E8E8E8;
+}
+.col
+{
+	color: #D604FC;
+}
+
+.uld
+{
+	text-decoration: underline;
+}
