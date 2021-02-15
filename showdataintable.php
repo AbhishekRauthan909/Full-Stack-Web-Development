@@ -7,7 +7,7 @@ include('config.php');
     if($data->num_rows>0){
     ?>
 
-        <table border='1px'>
+        <table border='3px'>
              <thead>
                  <tr>
                      <th>Id</th>
