@@ -28,7 +28,7 @@ else
         <form method="POST" action="addingtodb.php">
         USERNAME <input type="text" name="username" placeholder="Enter your username" required><br><br>
         E-MAIL<input type="email" name="email" placeholder="Type your email" required><br><br>
-        <input type="radio" value="male" name="gender">male
+        <input type="radio" value="male" name="gender" required>male
         <input type="radio" value="female" name="gender">female<br>
         <select name="city">
         Select your city
