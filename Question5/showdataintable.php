@@ -15,6 +15,8 @@ include('config.php');
                      <th>Email</th>
                      <th>Gender</th>
                      <th>City</th>
+                     <th>Update</th>
+                     <th>Delete</th>
                  </tr>
              <thead>
             <tbody>
@@ -28,6 +30,10 @@ include('config.php');
                       <td><?php echo $row['email']?></td>
                       <td><?php echo $row['gender']?></td>
                       <td><?php echo $row['city']?></td>
+                      <td><a href="update.php?id=<?php echo $row['id']?>">
+				      <input type="button" value="Edit"></a></td>
+                      <td><a href="delete.php?id=<?php echo $row['id']?>">
+                      <input type="button" value="Delete"></a>
                   </tr>
                   <?php } ?>
             </tbody>
