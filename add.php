@@ -1,7 +1,6 @@
 <?php
 if(isset($_POST['submit']))
-{
-    
+{    
     
     $v1=$_POST['var1'];
     if(!empty($v1))
@@ -16,7 +15,6 @@ else
     echo "Enter and Submit the data";
 }
 ?>
-
 <html>
     <head>
         <title>
@@ -32,5 +30,4 @@ else
             <input type="submit" name="submit" value="Click here to submit the data">
         </form>
     </body>
-    
 </html>
